@@ -33,6 +33,7 @@ app.set("view engine", "jade");
 app.use("/", express.static(__dirname + "/public"));
 app.use("/login", express.static(__dirname + "/public"));
 app.use("/signup", express.static(__dirname + "/public"));
+app.use("/profile", express.static(__dirname + "/public"));
 
 //jade setup
 

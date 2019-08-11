@@ -56,49 +56,57 @@
     <!-- ===============================================================================================-->
   </head>
   <body>
+    <h1 class="specific">
+      Welcome #{user.username}
+    </h1>
+
+    <a href="/logout" class="btn btn-primary specific1">Logout</a>
+
     <table class="table">
-      <thead>
-        <tr>
-          <th scope="col">Song Title</th>
-          <th scope="col">Artist Name</th>
-          <th scope="col">Album Name</th>
-          <th scope="col">Genre</th>
-          <th scope="col">Release Date</th>
-          <th scope="col">Action</th>
+      <tr>
+        <th scope="col">Song Title</th>
+        <td>Stairway to Heaven</td>
+        <td>Heathens</td>
+        <td>Smells Like Teen Spirit</td>
+      </tr>
 
-        </tr>
-        <tbody>
-            <tr>
-              <th scope="row">Stairway to Heaven</th>
-              <td>Led Zeppelin</td>
-              <td>Led Zeppelin IV</td>
-              <td>Progressive Rock</td>
-              <td>1971</td>
-              <td><button type="button" class="btn btn-primary">Add Comment</button></td>
-             
-            </tr>
-            <tr>
-              <th scope="row">Heathens</th>
-              <td>Twenty One Pilots  </td>
-              <td>Suicide Squad:The Album</td>
-              <td>Rap Rock</td>
-              <td>2016</td>
-              <td><button type="button" class="btn btn-primary">Add Comment</button></td>
+      <tr>
+        <th scope="col">Artist Name</th>
+        <td>Led Zeppelin</td>
+        <td>Nirvana</td>
+        <td>Twenty One Pilots</td>
+      </tr>
+      <tr>
+        <th scope="col">Album Name</th>
+        <td>Led Zeppelin IV</td>
+        <td>Suicide Squad:The Album</td>
+        <td>Nevermind</td>
+      </tr>
+      <tr>
+        <th scope="col">Genre</th>
 
-             
-            </tr>
-            <tr>
-              <th scope="row">Smells Like Teen Spirit</th>
-              <td>Nirvana</td>
-              <td>Nevermind</td>
-              <td>Alternative Rock</td>
-              <td>1991</td>
-              <td><button type="button" class="btn btn-primary">Add Comment</button></td>
-
-             
-            </tr>
-          </tbody>
-      </thead>
+        <td>Progressive Rock</td>
+        <td>Rap Rock</td>
+        <td>Alternative Rock</td>
+      </tr>
+      <tr>
+        <th scope="col">Release Date</th>
+        <td>1971</td>
+        <td>2016</td>
+        <td>1991</td>
+      </tr>
+      <tr>
+        <th scope="col">Action</th>
+        <td>
+          <button type="button" class="btn btn-primary">Add Comment</button>
+        </td>
+        <td>
+          <button type="button" class="btn btn-primary">Add Comment</button>
+        </td>
+        <td>
+          <button type="button" class="btn btn-primary">Add Comment</button>
+        </td>
+      </tr>
     </table>
 
     <div id="dropDownSelect1"></div>
